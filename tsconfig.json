@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "DOM"],
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/src/*": ["src/*"],
+      "@/res/*": ["res/*"],
+
+      "@/api/*": ["src/api/*"],
+      "@/service/*": ["src/service/*"],
+      "@/util/*": ["src/util/*"],
+
+      "@/vue-component/*": ["src/vue/component/*"],
+      "@/vue-view/*": ["src/vue/view/*"]
+    },
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  }
+}
